@@ -1,0 +1,63 @@
+/*Reseteamos*/
+/*
+1.-Elementos html
+2.-Identificadores(orden alfabético)
+3.-clases(orden alfabético)
+4.-TODAS las reglas van ordenadas alfabéticamente
+*/
+*{
+    font-family: "Calibri";
+    margin:0;
+    padding:0;
+}
+/*header{
+    border: 1px solid;
+}*/
+header img{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    width: 100%;
+}
+nav{
+    /*border-radius: .3;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);*/
+    margin:1em 1em;
+    text-align:center;
+    
+}
+nav a{
+    
+    border: 1px solid #000000;
+    border-radius: .2em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    color:black;
+    margin:0 .4em;
+    padding: .1em 1em;
+    
+    
+}
+nav a:hover{
+    background: #909090;
+    color:#E2E2E2;
+}  
+a{
+    text-decoration: none;
+}
+main{
+    border: 1px solid #000000;
+    display:inline-block;
+    margin-right: 1em;
+    vertical-align: top;
+    width:80%;
+}
+aside{
+    border: 1px solid #db1212;
+    display:inline-block;
+    vertical-align: top;
+    width: 18%;
+}
+#contenedor{
+    /*border: 1px solid;*/
+    margin: 1em auto;
+    width:80%;
+    
+}

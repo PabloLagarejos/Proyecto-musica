@@ -1,0 +1,159 @@
+*{
+    font-family: "Calibri";
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+section,article{
+    margin:0 auto;
+    width:100%;
+}
+h1{
+    color:#002e5b;
+    text-align: center;
+     
+}
+h1 span{
+    font-weight: 500;
+}
+header{
+    background-color: #FFD00E;
+    margin-bottom: 50px;
+    width:100%;
+}
+nav{
+    text-align:center;
+}
+nav ul li{
+    display:inline-block;
+}
+/*rgba(o o o.7)*/
+/*htmlcodes web para coger códigos*/
+/*12pt=16px=1em*/
+
+nav ul li a{
+    color:#002e5b;
+    display:inline-block ;
+    font-size: 18px;
+    margin-right: -4px;
+    padding: 25px 20px;
+    
+    transition:0.4s ease;
+}
+nav ul li a i{
+    /*iconos*/
+    color:#002e5b;
+    padding-right: 8px;
+    transition:0.4s ease;
+}
+nav ul li a:hover{
+    background-color:#002e5b;
+    color:#FFD00E;
+    transition:0.4s ease;
+}
+nav ul li a:hover i{
+    /*background-color: #FFD00E; es transparente no hace falta*/
+    color:#FFD00E;
+    transition:0.4s ease;
+}
+label,input[type=checkbox]{
+    display:none;
+}
+/*truco */
+
+
+
+.contenido{
+    /*border: 1px solid;*/
+    margin-bottom: 3em;
+    width: 50%;
+}
+.contenido h2{
+    border-bottom: 1px solid #FFD00E;
+    display: inline-block;/*truco subrayado*/
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contenido p{
+    /*word-spacing ,letter-spacing*/
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+}
+.menu ul{
+	width:25px;
+}
+
+.menu ul li{
+	height:2px;
+	background-color:#002e5b;
+	margin-bottom:4px;
+}
+/*.fa{
+    cambio tamaño iconos
+    font-size: 1.2em;
+}*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+@media only screen and (max-width: 1100px) {
+	article{
+		/*border: 1px solid #0000;*/
+	}
+}
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+@media only screen and (max-width: 900px) {
+
+    article{
+		/*border: 1px solid #FF0000;*/
+	}
+    header{
+        height:30px;
+        padding-top:20px ;
+
+    }
+    section{
+        position:relative;
+    }
+    label{/*para que salgan las lineas*/
+        cursor:pointer;
+        display:block;
+        float: right;
+    }
+    input[type=checkbox]:checked+nav{/*al marcar click*/
+        display:inline-block;
+    }
+    nav{
+        background-color: #002e5b;
+        display:none;
+        position: absolute;
+        right:0px;
+        text-align:left;
+        top: 30px;
+        width:135px;
+    }
+    nav ul li{
+        width: 100%;
+    }
+    nav ul li a{
+        border-bottom: 2px solid rgba(100,150,200, .4);
+        color:#FFF;
+        display:block;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    nav ul li a i{
+        color:#fde428;
+    }
+    /*i{
+        visibility: hidden;
+    }*/
+    .fa{
+        font-size: .9em;
+    }
+}

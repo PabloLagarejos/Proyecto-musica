@@ -1,0 +1,40 @@
+*{
+    font-family: "calibri";
+    margin: 0;
+    padding:0;
+}
+header{
+    text-align: center;
+}
+.titulo{
+    border: 1px solid#000000;
+    border-radius: .5em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    font-size: 40px;
+    color:blue;
+    text-align: center;
+     
+}
+nav{
+    padding-top: 2em;
+    margin:1em 1em;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color:brown;
+    border: 1px solid #000000;
+    border-radius: .2em;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    margin: 0.4em;
+    padding:0.5em;
+}
+nav a:hover{
+    background: #000000;
+    color:aliceblue;
+    transition: 0.4s ease;
+}
+/*nav a:hover{
+    background: #909090;
+    color:#E2E2E2;
+}  
